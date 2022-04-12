@@ -12,7 +12,7 @@ mp_hands = mp.solutions.hands
 cap = None
 
 #pre-trained saved model with 99% accuracy
-classifier = Model.load_classifier('grayscale_classifier.h5')
+classifier = Model.load_classifier('grayscale_classifier1')
 
 
 def draw_region(image, center):
